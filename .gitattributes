@@ -1,0 +1,15 @@
+* text=auto
+*.R text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.cff text eol=lf
+*.csv text eol=lf
+*.tsv text eol=lf
+*.txt text eol=lf
+*.ps1 text eol=crlf
+*.pdf binary
+*.png binary
+*.tiff binary
+# Preserve exact bytes of processed input tables so SHA256 manifests survive clones.
+/Pasture/**/*.txt -text
+/Wheat/**/*.txt -text

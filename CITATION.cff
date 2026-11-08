@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and the archived repository release used for your analysis."
+type: software
+title: "6-PP field microbiome analysis in pasture and wheat"
+authors:
+  - family-names: Soth
+    given-names: Sereyboth
+    website: "https://github.com/Sereyboth94"
+keywords:
+  - microbiome
+  - amplicon
+  - pasture
+  - wheat
+  - phyloseq
+  - 6-pentyl-alpha-pyrone

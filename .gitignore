@@ -1,0 +1,43 @@
+# R sessions and caches
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.renv/
+renv/library/
+renv/staging/
+*.Rcheck/
+
+# Generated outputs; processed input tables remain tracked.
+/results/
+**/Phyloseq_Field_Bacteria/
+**/Phyloseq_Field_Fungi/
+**/Bacterial Analysis/
+
+# Raw reads are archived separately.
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+*.fastq.bz2
+*.fq.bz2
+*.bam
+*.cram
+*.sra
+
+# Credentials and machine-specific files
+*.key
+*.openssh
+*.pem
+.env
+.env.*
+id_rsa*
+id_ed25519*
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+*.zip
+.input_backups/
+.input_staging_*/

@@ -1,0 +1,35 @@
+FINAL TALL FIGURE SCRIPTS VALIDATION
+Prepared 12 November 2026
+
+Production defaults: 600 dpi for PNG and TIFF; TIFF compression LZW.
+Main: 190 mm x 9 inches, 4488 x 5400 raster pixels.
+Supplementary: 190 mm x 9.5 inches, 4488 x 5700 raster pixels.
+
+REAL-DATA FULL RUN: PASS
+All four dataset figures and four six-panel supplementary figures were regenerated.
+All eight generated TIFFs matched the eight user-attached approved TIFFs pixel for pixel.
+All eight TIFFs were confirmed at 600 x 600 dpi and LZW compression.
+All eight PDFs were confirmed as vector drawing, with embedded font files and A-F panel labels.
+All 24 PDF/PNG/TIFF files and the combined caption file were present.
+The six numerical audit tables and six-panel pie data exactly matched the manuscript reproduction.
+
+ENTRY POINT AND EDITING CHECKS: PASS
+Run_Supplementary_Pies_Only.R: four supplementary figures; no main figures exported.
+Wheat/Wheat_Phyloseq_Fungi.R: Figure 4 and Figure S4 retained their numbering.
+Replot_Figures.R: reused the latest analysis cache and regenerated all eight figures.
+All cached runs retained the complete eight-dataset BH testing family.
+Paths with spaces, arbitrary working directory, RNG preservation and working-directory preservation passed.
+Fast entry-point checks used an external temporary 72-dpi override; it is not included in this package.
+The delivered Figure_Settings.R production default remains 600 dpi.
+
+RUNTIME: R 4.5.0 on Linux; ggplot2 3.5.1; dplyr 1.1.4; tidyr 1.3.1;
+patchwork 1.3.0; vegan 2.6-10; ape 5.8-1; Cairo graphics.
+Reference PDFs embed Liberation Sans, used as the Arial-compatible fallback in this environment.
+Different installed fonts or package versions may change glyph rendering while retaining the configured layout.
+Optional ragg/SVG export was not used for the production-reference comparison.
+The PowerShell 5.1-compatible installer was reviewed but could not be executed in this Linux environment.
+
+SCIENTIFIC SCOPE
+This validates numerical and graphical reproduction of the recorded unrestricted workflow.
+Field randomisation/shelter allocation and pooled-marker provenance remain author questions;
+these drawing scripts do not resolve them. No input tables or approved figures were modified.

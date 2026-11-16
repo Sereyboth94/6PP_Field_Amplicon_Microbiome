@@ -41,3 +41,6 @@ desktop.ini
 *.zip
 .input_backups/
 .input_staging_*/
+
+**/_script_backups/
+**/Tall_Figure_Outputs/

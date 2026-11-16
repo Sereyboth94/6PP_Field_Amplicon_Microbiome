@@ -1,5 +1,15 @@
 # 6-PP field microbiome analysis in pasture and wheat
 
+<!-- tall-final-workflow -->
+> **Current manuscript figure workflow:** Follow the [Tall_Final guide](Microbiome_Figures_Scripts_and_Tables/README_Tall_Figures.md). The main runner is [Run_All_Four_Figures.R](Microbiome_Figures_Scripts_and_Tables/Run_All_Four_Figures.R), with configuration in [Figure_Settings.R](Microbiome_Figures_Scripts_and_Tables/Figure_Settings.R). Keep the accompanying `R/` directory with the dataset scripts.
+>
+> The workflow exports eight figures in PDF, PNG and 600 dpi TIFF. Each run creates a timestamped directory under `Tall_Figure_Outputs/`.
+>
+> **Windows:** Use a short repository path, such as `%USERPROFILE%\6PP_repo`, to accommodate generated filenames.
+>
+> With R's working directory set to the repository root, run `setwd("Microbiome_Figures_Scripts_and_Tables")`, followed by `source("Run_All_Four_Figures.R", encoding = "UTF-8")`.
+<!-- /tall-final-workflow -->
+
 R workflows for bacterial and fungal communities in root-associated and
 rhizosphere samples from a field experiment comparing control and
 6-pentyl-alpha-pyrone (6-PP) seed treatments under irrigated and drought
